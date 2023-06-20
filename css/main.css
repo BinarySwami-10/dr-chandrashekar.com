@@ -1254,8 +1254,9 @@
     top: 1px; }
 
 .btn-primary {
-  background-color: #378C3F;
-  color: #FFFFFF; }
+  background-color: #0171cc;
+  color: #FFFFFF;
+  }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
   .show > .btn-primary.dropdown-toggle,
   .show > .btn-primary.dropdown-toggle:focus,
@@ -5123,10 +5124,11 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
-  /* Standard syntax */ }
+  background: linear-gradient(0deg, rgb(29 171 226 / 25%), rgb(55 120 140 / 60%));
+  /* Standard syntax */
+  }
   .page-header .btn {
-    width: 140px; }
+    min-width: 140px; }
 
 /* Profile Image Style */
 @-webkit-keyframes pulsate {
@@ -5153,24 +5155,24 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 25px solid rgba(55, 140, 63, 0.6);
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 20em;
+  width: 20em;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
           animation: pulsate 1.6s ease-out;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  opacity: 0.0;
+  opacity: 0.1;
   z-index: 99; }
 
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 20em;
+  width: auto;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
